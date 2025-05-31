@@ -1,33 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
- "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+from pathlib import Path
+
+# Tạo nội dung file .mobileconfig dựa trên yêu cầu của người dùng (từ ảnh tham khảo)
+mobileconfig_content = '''<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
     <key>PayloadContent</key>
     <array>
-        <!-- Cấu hình DNS, Wi-Fi, hoặc thông tin nào bạn muốn -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>8.8.8.8</string>
+                    <string>1.1.1.1</string>
+                </array>
+            </dict>
+            <key>PayloadIdentifier</key>
+            <string>com.vip.combo.dns</string>
+            <key>PayloadUUID</key>
+            <string>33333333-3333-3333-3333-333333333333</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadDisplayName</key>
+            <string>ComBoNewLock VIP DNS</string>
+        </dict>
     </array>
 
-    <!-- Thông tin hiển thị cho người dùng -->
     <key>PayloadDisplayName</key>
-    <string>Fake Aim 0.5 Limited Version ✴️</string>
+    <string>Aim Vip 0.1 🐰</string>
 
     <key>PayloadDescription</key>
-    <string>~ Fake Aim 0.5 Limited Version ✴️
-Config Dev Collab 🛠
-TikTok: @loveyou.xzino ( VHaiDang 🐰 )
-TikTok: @dkhoazzz12 ( DKhoa ⚡️ )</string>
+    <string>QuangDuyIos🐰
+Zalo:0923133399</string>
 
     <key>PayloadIdentifier</key>
-    <string>com.yourname.fakeaim</string>
+    <string>com.vip.combo</string>
 
     <key>PayloadType</key>
     <string>Configuration</string>
 
     <key>PayloadUUID</key>
-    <string>YOUR-UNIQUE-ID-HERE</string>
+    <string>44444444-4444-4444-4444-444444444444</string>
 
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
-</plist>
+</plist>'''
+
+# Lưu file mobileconfig
+output_path = Path("/mnt/data/ComBoNewLock_VIP.mobileconfig")
+output_path.write_text(mobileconfig_content, encoding="utf-8")
+
+output_path.name
