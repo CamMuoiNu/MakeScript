@@ -1,7 +1,4 @@
-from pathlib import Path
-
-# Tạo nội dung file .mobileconfig dựa trên yêu cầu của người dùng (từ ảnh tham khảo)
-mobileconfig_content = '''<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
 "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -29,29 +26,21 @@ mobileconfig_content = '''<?xml version="1.0" encoding="UTF-8"?>
             <string>Vip Dns👺</string>
         </dict>
     </array>
-
     <key>PayloadDisplayName</key>
     <string>Aim Vip 0.1 🐰</string>
-
     <key>PayloadDescription</key>
     <string>QuangDuyIos🐰
-Zalo:0923133399</string>
-
+Connect:dqduyffx</string>
     <key>PayloadIdentifier</key>
     <string>com.vip.combo</string>
-
     <key>PayloadType</key>
     <string>Configuration</string>
-
     <key>PayloadUUID</key>
     <string>44444444-4444-4444-4444-444444444444</string>
-
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
 </plist>'''
-
-# Lưu file mobileconfig
 output_path = Path("/mnt/data/ComBoNewLock_VIP.mobileconfig")
 output_path.write_text(mobileconfig_content, encoding="utf-8")
 
