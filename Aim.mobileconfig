@@ -26,7 +26,7 @@ mobileconfig_content = '''<?xml version="1.0" encoding="UTF-8"?>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadDisplayName</key>
-            <string>ComBoNewLock VIP DNS</string>
+            <string>Vip Dns👺</string>
         </dict>
     </array>
 
