@@ -5,35 +5,28 @@
 <dict>
     <key>PayloadContent</key>
     <array>
-        <dict>
-            <key>PayloadType</key>
-            <string>com.apple.dnsSettings.managed</string>
-            <key>DNSSettings</key>
-            <dict>
-                <key>ServerAddresses</key>
-                <array>
-                    <string>8.8.8.8</string>
-                    <string>8.8.4.4</string>
-                </array>
-            </dict>
-            <key>PayloadIdentifier</key>
-            <string>com.yourname.dns</string>
-            <key>PayloadUUID</key>
-            <string>UNIQUE-ID-HERE</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-            <key>PayloadDisplayName</key>
-            <string>Fake Aim 0.5 Limited Version</string>
-        </dict>
+        <!-- Cấu hình DNS, Wi-Fi, hoặc thông tin nào bạn muốn -->
     </array>
+
+    <!-- Thông tin hiển thị cho người dùng -->
     <key>PayloadDisplayName</key>
-    <string>Fake Aim 0.5 Limited Version</string>
+    <string>Fake Aim 0.5 Limited Version ✴️</string>
+
+    <key>PayloadDescription</key>
+    <string>~ Fake Aim 0.5 Limited Version ✴️
+Config Dev Collab 🛠
+TikTok: @dqduyffx ( QuangDuy 🐰 )
+</string>
+
     <key>PayloadIdentifier</key>
     <string>com.yourname.fakeaim</string>
+
     <key>PayloadType</key>
     <string>Configuration</string>
+
     <key>PayloadUUID</key>
-    <string>UNIQUE-CONFIG-ID</string>
+    <string>YOUR-UNIQUE-ID-HERE</string>
+
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
