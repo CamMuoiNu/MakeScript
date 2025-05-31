@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>8.8.8.8</string>
+                    <string>8.8.4.4</string>
+                </array>
+            </dict>
+            <key>PayloadIdentifier</key>
+            <string>com.yourname.dns</string>
+            <key>PayloadUUID</key>
+            <string>UNIQUE-ID-HERE</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadDisplayName</key>
+            <string>Fake Aim 0.5 Limited Version</string>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Fake Aim 0.5 Limited Version</string>
+    <key>PayloadIdentifier</key>
+    <string>com.yourname.fakeaim</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>UNIQUE-CONFIG-ID</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
