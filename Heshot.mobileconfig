@@ -6,53 +6,53 @@
         <array>
             <dict>
                 <key>PayloadType</key>
-                <string>com.rukaio.sensitivity</string>
+                <string>com.sea.sensitivity</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>PayloadIdentifier</key>
-                <string>com.rukaio.nextconfiguration.sensitivity</string>
+                <string>com.sea.nextconfiguration.Nhạy Tâm</string>
                 <key>PayloadUUID</key>
                 <string>11111111-1111-1111-1111-111111111111</string>
                 <key>PayloadDisplayName</key>
-                <string>Sensitivity ✈️</string>
+                <string>Nhạy Tâm 🐰</string>
                 <key>PayloadDescription</key>
-                <string>Nguyen Binh Phuong (Rukaio)</string>
+                <string>Đỗ Quang Duy (Sea)</string>
             </dict>
             <dict>
                 <key>PayloadType</key>
-                <string>com.rukaio.aimlock</string>
+                <string>com.sea.aimlock</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>PayloadIdentifier</key>
-                <string>com.rukaio.nextconfiguration.aimlock</string>
+                <string>com.sea.nextconfiguration.aimlock</string>
                 <key>PayloadUUID</key>
                 <string>22222222-2222-2222-2222-222222222222</string>
                 <key>PayloadDisplayName</key>
-                <string>Aimlock 🥷🏻</string>
+                <string>Aimlock🌸</string>
                 <key>PayloadDescription</key>
-                <string>Nguyen Binh Phuong (Rukaio)</string>
+                <string>Đỗ Quang Duy (Sea)</string>
             </dict>
             <dict>
                 <key>PayloadType</key>
-                <string>com.rukaio.headlock</string>
+                <string>com.sea.headlock</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>PayloadIdentifier</key>
-                <string>com.rukaio.nextconfiguration.headlock</string>
+                <string>com.sea.nextconfiguration.aimbot</string>
                 <key>PayloadUUID</key>
                 <string>33333333-3333-3333-3333-333333333333</string>
                 <key>PayloadDisplayName</key>
-                <string>HeadLock ⚡️</string>
+                <string>Aimbot🔥</string>
                 <key>PayloadDescription</key>
-                <string>Nguyen Binh Phuong (Rukaio)</string>
+                <string>Đỗ Quang Duy (Sea)</string>
             </dict>
         </array>
         <key>PayloadOrganization</key>
-        <string>Nguyen Binh Phuong (Rukaio)</string>
+        <string>Đỗ Quang Duy (Sea)</string>
         <key>PayloadDisplayName</key>
-        <string>NEXT CONFIGURATION-RUKAIO</string>
+        <string>Trợ Năng Ios</string>
         <key>PayloadDescription</key>
-        <string>Configuration profile by Rukaio</string>
+        <string>Configuration profile by Sea</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadType</key>
@@ -60,6 +60,6 @@
         <key>PayloadUUID</key>
         <string>44444444-4444-4444-4444-444444444444</string>
         <key>PayloadIdentifier</key>
-        <string>com.rukaio.nextconfiguration</string>
+        <string>com.sea.nextconfiguration</string>
     </dict>
 </plist>
