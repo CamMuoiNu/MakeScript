@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.rukaio.sensitivity</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>com.rukaio.nextconfig.sensitivity</string>
+        <key>PayloadUUID</key>
+        <string>4F56C0E9-12A3-4E10-BCD3-7890ABCDEF12</string>
+        <key>PayloadDisplayName</key>
+        <string>Sensitivity ✈️</string>
+        <key>PayloadDescription</key>
+        <string>Nguyen Binh Phuong (Rukaio)</string>
+      </dict>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.rukaio.aimlock</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>com.rukaio.nextconfig.aimlock</string>
+        <key>PayloadUUID</key>
+        <string>73E1B0D5-67F4-4212-AA77-98B2650AB345</string>
+        <key>PayloadDisplayName</key>
+        <string>Aimlock 🥷🏻</string>
+        <key>PayloadDescription</key>
+        <string>Nguyen Binh Phuong (Rukaio)</string>
+      </dict>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.rukaio.headlock</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>com.rukaio.nextconfig.headlock</string>
+        <key>PayloadUUID</key>
+        <string>A1B2C3D4-5678-9ABC-DEF0-1234567890AB</string>
+        <key>PayloadDisplayName</key>
+        <string>HeadLock ⚡️</string>
+        <key>PayloadDescription</key>
+        <string>Nguyen Binh Phuong (Rukaio)</string>
+      </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>NEXT CONFIGURATION-RUKAIO</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.rukaio.nextconfiguration</string>
+    <key>PayloadUUID</key>
+    <string>24323DA9-DBA3-4EE0-8F63-123456789ABC</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+  </dict>
+</plist>
