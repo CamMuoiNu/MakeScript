@@ -40,26 +40,4 @@
                 <key>PayloadIdentifier</key>
                 <string>com.sea.nextconfiguration.aimbot</string>
                 <key>PayloadUUID</key>
-                <string>33333333-3333-3333-3333-333333333333</string>
-                <key>PayloadDisplayName</key>
-                <string>Aimbot🔥</string>
-                <key>PayloadDescription</key>
-                <string>Đỗ Quang Duy (Sea)</string>
-            </dict>
-        </array>
-        <key>PayloadOrganization</key>
-        <string>Đỗ Quang Duy (Sea)</string>
-        <key>PayloadDisplayName</key>
-        <string>Trợ Năng Ios</string>
-        <key>PayloadDescription</key>
-        <string>Configuration profile by Sea</string>
-        <key>PayloadVersion</key>
-        <integer>1</integer>
-        <key>PayloadType</key>
-        <string>Configuration</string>
-        <key>PayloadUUID</key>
-        <string>44444444-4444-4444-4444-444444444444</string>
-        <key>PayloadIdentifier</key>
-        <string>com.sea.nextconfiguration</string>
-    </dict>
-</plist>
+z
