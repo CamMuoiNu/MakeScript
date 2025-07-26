@@ -11,7 +11,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
 ImageButton.Size = UDim2.new(0, 40, 0, 40)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id=73778041305583"
+ImageButton.Image = "http://www.roblox.com/asset/?id=91178387938392"
 
 UICorner.CornerRadius = UDim.new(1, 10) 
 UICorner.Parent = ImageButton
@@ -23,7 +23,7 @@ end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
-    Title = "TBoy Roblox Tổng Hợp",
+    Title = "Quang Duy Make Tổng Hợp",
     SubTitle = "Blox Fruit",
     TabWidth = 157,
     Size = UDim2.fromOffset(450, 300),
@@ -48,8 +48,8 @@ local Tabs = {
 })
 
     Tabs.Main0:AddButton({
-    Title = "Youtuber",
-    Description = "TBoy Roblox",
+    Title = "TikToker",
+    Description = "QuangDuy",
     Callback = function()
         setclipboard("https://www.youtube.com/@TBoyRoblox08")
     end
